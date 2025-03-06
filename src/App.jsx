@@ -80,7 +80,7 @@ function App() {
               {/* info */}
               <div className='relative z-10'>
                 <h1 className='font-bold text-3xl md:text-4xl tracking-wide'>Product Testing Gift Card</h1>
-                <p className="p-2 text-cyan-100 text-sm">Thank you for your interest in our Product Testing Research Study. As compensation for your time and contribution, a gift-card valued at $100 will be sent to qualifying participants. Please fill out the following information:</p>
+                <p className="p-2 text-cyan-100 text-sm">Thank you for your interest in our Product Testing Research Study. As compensation for your time and participation, a gift-card valued at $100 will be sent to qualifying participant's personal email. Please fill out the following information:</p>
               </div>
 
               {/* contact */}
@@ -118,7 +118,7 @@ function App() {
 
                         {/* email */}
                         <div>
-                          <label htmlFor="email" className='text-sm'>Email *</label>
+                          <label htmlFor="email" className='text-sm'>Email * use Personal, not work</label>
                           <input type="text" name="email" id="email" placeholder='Email Address' className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300' required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
                         </div>
 
